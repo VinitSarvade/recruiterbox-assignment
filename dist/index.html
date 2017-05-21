@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="styles.min.css"/>
+</head>
+<body>
+    <div class="widget">
+        <ul class="tabs">
+            <li class="tab" data-tab="live-chat">
+                <i class="fa fa-comment fa-fw"></i> Live Chat
+            </li>
+            <li class="tab active" data-tab="faq">
+                <i class="fa fa-search fa-fw"></i> FAQ
+            </li>
+            <li class="tab" data-tab="mail-us">
+                <i class="fa fa-envelope-o fa-fw"></i> Mail Us
+            </li>
+            <li class="tab open-close">
+                <i class="fa fa-chevron-up fa-fw"></i>
+            </li>
+        </ul>
+        <div class="tab-contents">
+            <div class="tab-content" id="live-chat">
+                <div class="container">
+                    <div class="row messages-box">
+                        <div class="col full x-center">
+                            <div class="speech-bubble left">Nunc consectetur erat vel ornare accumsan. Duis tincidunt facilisis turpis eget pretium. Nunc eleifend risus nisl.</div>
+                            <div class="speech-bubble right">Nunc consectetur erat vel ornare accumsan. Duis tincidunt facilisis turpis eget pretium. Nunc eleifend risus nisl, nec tincidunt mi tristique vitae. Maecenas a cursus massa. </div>
+                            <div class="speech-bubble left">Nunc eleifend risus nisl, nec tincidunt mi tristique vitae. Maecenas a cursus massa. </div>
+                            <div class="speech-bubble left">Duis tincidunt facilisis turpis eget pretium. Nunc eleifend risus nisl. Maecenas a cursus massa.</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col full text-box">
+                            <input type="text" name="chatmessage">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content active" id="faq">
+                <div class="container">
+                    <div class="row no-wrap height-full">
+                        <div class="col one-third mail-section">
+                            <div>
+                                <h2>Prefer email instead?</h2>
+                                <p>
+                                    <button class="btn">
+                                        <i class="fa fa-envelope-o fa-fw"></i> Write to us
+                                    </button>
+                                </p>
+                                <h5>We are super quick in responding to your queries.</h5>
+                            </div>
+                        </div>
+                        <div class="col two-third faq-section">
+                            <div class="row x-center">
+                                <div class="col full search">
+                                    <div class="input-addon">
+                                        <i class="fa fa-search fa-fw"></i>
+                                        <input type="text" placeholder="What can we help you with? Start typing your question...">
+                                    </div>
+                                </div>
+                                <div class="col one-third">
+                                    <div class="box">
+                                        <div>
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                <i class="fa fa-folder fa-stack-1x"></i>
+                                            </span>
+                                            <div class="title">Sharing Options</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col one-third">
+                                    <div class="box">
+                                        <div>
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                <i class="fa fa-thumb-tack fa-rotate-45 fa-stack-1x"></i>
+                                            </span>
+                                            <div class="title">Managing Options</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col one-third">
+                                    <div class="box">
+                                        <div>
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-file-o fa-stack-2x fa-flip-horizontal"></i>
+                                                <i class="fa fa-user fa-stack-1x"></i>
+                                            </span>
+                                            <div class="title">Managing Candidates</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col one-third">
+                                    <div class="box">
+                                        <div>
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-sun-o fa-stack-2x"></i>
+                                                <i class="fa fa-user fa-stack-1x"></i>
+                                            </span>
+                                            <div class="title">Account Management</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col one-third">
+                                    <div class="box">
+                                        <div>
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                <i class="fa fa-folder fa-stack-1x"></i>
+                                            </span>
+                                            <div class="title">Sourcing Candidates</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col one-third">
+                                    <div class="box">
+                                        <div>
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                                <i class="fa fa-folder fa-stack-1x"></i>
+                                            </span>  
+                                            <div class="title">Reporting</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="mail-us">
+                <div class="container">
+                    <form action="#" class="form">
+                        <div class="alert alert-success alert-dismissable hidden">
+                            <i class="fa fa-fw fa-check"></i> Message Sent! Thanks for reaching out! Someone from our team will get back to you soon.
+                            <span class="close pull-right"><i class="fa fa-fw fa-remove"></i></span>
+                        </div>
+                        <div class="alert alert-danger alert-dismissable hidden">
+                            <i class="fa fa-fw fa-warning"></i> Please fill up all the fields!
+                            <span class="close pull-right"><i class="fa fa-fw fa-remove"></i></span>
+                        </div>
+                        <div class="row">
+                            <div class="col full">
+                                <span class="addon"><strong>To </strong></span>
+                                <input type="text" value="support@recruiterbox.com" class="with-addon" disabled>
+                            </div>
+                        </div>
+                        <div class="row mt-7">
+                            <div class="col full">
+                                <input type="text" name="subject" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="row mt-7">
+                            <div class="col full">
+                                <textarea rows="4" name="message" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row mt-7">
+                            <div class="col half">
+                                <a href="#"><i class="fa fa-paperclip"></i> <small>Attach files</small></a>
+                            </div>
+                            <div class="col half txt-right">
+                                <button type="submit" class="btn">Send Mail</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.min.js"></script>
+</body>
+</html>
